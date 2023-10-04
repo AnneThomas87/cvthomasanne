@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(to right ,#D3CFFF , #FDFCFF);
+}
+
+.container{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 50px ;
+    gap: 60px;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    border-radius: 50%;
+   
+}
+
+.container2
+{
+    margin: 2em;
+    margin-right: 2em;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin: 0 50px ; */
+    /* gap: 60px; */
+
+}
+.three{
+    margin-right: 4em;
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+margin: 0%;
+font-size: 4rem;
+
+}
+h2{
+    font-size: 2rem;
+    font-family: Georgia, Times, 'Times New Roman', serif
+    
+    
+
+}
+h3
+{
+    background-color: rgb(162, 160, 211);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    /* margin-left: 5%; */
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 2em;
+}
+
+
+.three h4{
+margin-bottom: 0%;
+margin-top: 0%;
+}
+h5{
+    font-size: medium;
+    margin-left: 3em;
+}
+p{
+    font-size: large;
+    margin-left: 2em;
+}
+li
+{
+    font-size: large;
+    font-weight:bold;
+}
+ul{
+    font-size: smaller;
+}
+.four h4{
+margin-bottom: 0%;
+}
+.four h5 {
+    margin-top: 0%;
+}
+@media screen and (max-width: 800px){
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+}
